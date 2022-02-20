@@ -19,7 +19,6 @@ if (number >= 7) {
 let year = prompt("Enter year")
 if (year < 0) {
     alert("no year exist")
-} else(year > 0 && 2022) {
-    alert(...)
+} else parseint((year / 100) + 1) {
+    alert("your century")
 }
-console.log(typeof parseint(()))
